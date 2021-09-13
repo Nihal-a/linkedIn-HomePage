@@ -6,8 +6,12 @@
 body{
     font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue","Fira Sans",Ubuntu,Oxygen,"Oxygen Sans",Cantarell,"Droid Sans","Apple Color Emoji","Segoe UI Emoji","Segoe UI Emoji","Segoe UI Symbol","Lucida Grande",Helvetica,Arial,sans-serif;
 }
+
+
+/* Navbar Starts */
 .logo{
     width: 12%;
+    cursor: pointer;
 }
 
 .container{
@@ -17,7 +21,7 @@ body{
 nav{
     display: flex;
     justify-content: space-between;
-    padding: 14px;
+    padding: 16px;
 }
 .home-btn{
    padding: 6px;
@@ -37,5 +41,16 @@ nav{
     font-weight: 600;
     color: rgba(0,0,0,0.6);
     font-size: 16px;
-    padding: 0 12px;
+    padding: 11px 12px;
 }
+.join-btn:hover{
+    background-color: rgba(0, 0, 0, 0.103);
+    color: #111;
+    border-radius: 4px;
+    transition-duration: .3s;
+}
+.sign-btn:hover{
+    background-color: #0a66c225;
+    border: 2px solid #0a66c2;
+}
+/* Navbar ends */
