@@ -21,7 +21,7 @@ body{
 nav{
     display: flex;
     justify-content: space-between;
-    padding: 16px;
+    padding: 16px 0;
 }
 .home-btn{
    padding: 6px;
@@ -54,3 +54,45 @@ nav{
     border: 2px solid #0a66c2;
 }
 /* Navbar ends */
+
+/* Home starts*/
+.home{
+    text-align: left;
+    display: flex;
+}
+.home-content{
+    width: fit-content;
+}
+.main-text{
+    color: #8f5849;
+    font-weight: 200;
+    font-size: 3rem;
+    margin-bottom: 5rem;
+}
+
+.home-img{
+    width: 50%;
+    margin-top: 3rem;
+    padding: 10px;
+    float: right;
+}
+.list{
+    text-decoration: none;
+    color: #111;
+    font-size: 20px;
+    display: flex;
+    width: 85%;
+    padding: 1.3rem;
+    border: 1px solid rgba(156, 156, 156, 0.4);
+    border-radius: 8px;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.list h5{
+    font-weight: 400;
+}
+.list:hover{
+    box-shadow: 2px 3px 5px rgba(95, 95, 95, 0.281);
+}
+
+/* Home Ends */
