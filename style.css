@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue","Fira Sans",Ubuntu,Oxygen,"Oxygen Sans",Cantarell,"Droid Sans","Apple Color Emoji","Segoe UI Emoji","Segoe UI Emoji","Segoe UI Symbol","Lucida Grande",Helvetica,Arial,sans-serif;
+}
+.logo{
+    width: 12%;
+}
+
+.container{
+    max-width: 1128px;
+    margin: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 14px;
+}
+.home-btn{
+   padding: 6px;
+}
+.join-btn,.sign-btn{
+    text-decoration: none;
+}
+.sign-btn{
+    color: #0a66c2;
+    padding: 10px 24px;
+    border-radius: 24px;
+    border: 1px solid #0a66c2;
+    font-weight: bold;
+    font-size: 16px;
+}
+.join-btn{
+    font-weight: 600;
+    color: rgba(0,0,0,0.6);
+    font-size: 16px;
+    padding: 0 12px;
+}
