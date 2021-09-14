@@ -205,7 +205,7 @@ nav{
 }
 .features-wrapper{
     display: flex;
-    padding: 20px;
+    padding: 20px 0 ;
 }
 .features-img{
     width: 28rem;
@@ -251,3 +251,65 @@ nav{
     background-color: rgba(0, 0, 0, 0.205);
 }
 /* Features Ends */
+
+/* Benifits Satrts */
+#benifits{
+    width: 100%;
+    height: 100vh;
+}
+.benifits-wrapper{
+    display: flex;
+    height: 100%;
+    align-items: center;
+
+}
+.connect-section{
+  padding: 20px 0px;
+}
+.connect-section img{
+    width: 20rem;
+}
+.connect-section h2{
+    font-weight: 200;
+    font-size: 48px;
+    color: rgba(0,0,0, 0.9);
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.connect-cta{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.827);
+    font-weight: 600;
+    border: 1px solid rgba(156, 156, 156, 0.4);
+    padding: 14px 24px;
+    border-radius: 24px;
+}
+.connect-cta:hover{
+    background-color: rgba(156, 156, 156, 0.4);
+    text-decoration: underline;
+}
+.learn-section{
+    padding-left: 5rem;
+}
+.learn-section img{
+    width: 20rem;
+}
+.learn-section{
+    margin-left: 3rem;
+}
+.learn-section img{
+    width: 20rem;
+}
+.learn-button{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.827);
+    font-weight: 400;
+    border: 1px solid rgba(156, 156, 156, 0.4);
+    padding: 14px 24px;
+}
+.learn-button:hover{
+    background-color: rgba(156, 156, 156, 0.4);
+}
+/* Benifits Ends */
