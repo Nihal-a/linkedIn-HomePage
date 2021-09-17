@@ -313,3 +313,52 @@ nav{
     background-color: rgba(156, 156, 156, 0.4);
 }
 /* Benifits Ends */
+/* Testimonial starts */
+#testimonial{
+    width: 100%;
+    height: 100vh;
+}
+.test-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.vdo-area,.vdo-text-area{
+    flex: 1;
+}
+.vdo-text-area{
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.vdo-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ifvdo{
+    border-radius: 5px;
+}
+.vdo-text-area h2{
+    font-size: 40px;
+    color: #b24020;
+    font-weight: 400;
+}
+.vdo-text-area h6{
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 200;
+}
+.test-content::after{
+    content: '';
+    width: 70vw;
+    height: 720px;
+    left: 30%;
+    position: absolute;
+    z-index: -1;
+    background-color: #F4FAFF;
+    margin-top: 2.5rem;
+}
+/* Testimonial ends */
